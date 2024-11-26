@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "chatapp",
+    "libraryId": "b75de5b5-5cd4-4e22-8820-886e8a5005a9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "chatapp",
+    "solutionShortDescription": "chatapp description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

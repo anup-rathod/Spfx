@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "material-grid-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/materialGrid/MaterialGridWebPart.js",
+          "manifest": "./src/webparts/materialGrid/MaterialGridWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MaterialGridWebPartStrings": "lib/webparts/materialGrid/loc/{locale}.js"
+  }
+}

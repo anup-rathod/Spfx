@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chatapp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chatapp/ChatappWebPart.js",
+          "manifest": "./src/webparts/chatapp/ChatappWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChatappWebPartStrings": "lib/webparts/chatapp/loc/{locale}.js"
+  }
+}

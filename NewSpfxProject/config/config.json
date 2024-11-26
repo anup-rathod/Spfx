@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "new-spfx-project-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newSpfxProject/NewSpfxProjectWebPart.js",
+          "manifest": "./src/webparts/newSpfxProject/NewSpfxProjectWebPart.manifest.json"
+        }
+      ]
+    },
+    "webpart-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webpart2/Webpart2WebPart.js",
+          "manifest": "./src/webparts/webpart2/Webpart2WebPart.manifest.json"
+        }
+      ]
+    },
+    "webpart-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webpart3/Webpart3WebPart.js",
+          "manifest": "./src/webparts/webpart3/Webpart3WebPart.manifest.json"
+        }
+      ]
+    },
+    "pracwebpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pracwebpart/PracwebpartWebPart.js",
+          "manifest": "./src/webparts/pracwebpart/PracwebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "webpart-4-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webpart4/Webpart4WebPart.js",
+          "manifest": "./src/webparts/webpart4/Webpart4WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewSpfxProjectWebPartStrings": "lib/webparts/newSpfxProject/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "Webpart2WebPartStrings": "lib/webparts/webpart2/loc/{locale}.js",
+    "Webpart3WebPartStrings": "lib/webparts/webpart3/loc/{locale}.js",
+    "PracwebpartWebPartStrings": "lib/webparts/pracwebpart/loc/{locale}.js",
+    "Webpart4WebPartStrings": "lib/webparts/webpart4/loc/{locale}.js"
+  }
+}

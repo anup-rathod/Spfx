@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "material-ui-table-client-side-solution",
+    "id": "2a0ede06-860e-4b42-abb6-cdbf3a277df3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "material-ui-table description"
+      },
+      "longDescription": {
+        "default": "material-ui-table description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "material-ui-table Feature",
+        "description": "The feature that activates elements of the material-ui-table solution.",
+        "id": "7dd5a92d-ac60-46f6-952c-308d38e46bb1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/material-ui-table.sppkg"
+  }
+}
